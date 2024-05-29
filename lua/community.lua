@@ -12,7 +12,6 @@ return {
   -- language specific plugin packs
   { import = "astrocommunity.pack.rust" },
   -- color plugins (e.g. transparency)
-  { import = "astrocommunity.color.transparent-nvim"},
   { import = "astrocommunity.color.twilight-nvim"},
   -- completion plugins
   { import = "astrocommunity.completion.copilot-lua"},
