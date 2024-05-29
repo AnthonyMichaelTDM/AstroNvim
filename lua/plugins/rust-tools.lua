@@ -19,6 +19,10 @@ return {
       "AstroNvim/astrolsp",
       ---@type AstroLSPOpts
       opts = {
+        -- enable servers that you already have installed without mason
+        servers = {
+          "rust_analyzer"
+        },
         setup_handlers = {
           -- add custom handler
           rust_analyzer = function(_, opts)
