@@ -21,8 +21,6 @@ return {
   { import = "astrocommunity.editing-support.nvim-treesitter-context"},
   { import = "astrocommunity.editing-support.vim-visual-multi"},
   -- keybinding plugins
-  { import = "astrocommunity.keybinding.hydra-nvim"},
-  { import = "astrocommunity.keybinding.mini-clue"},
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim"},
   -- wakatime
   { import = "astrocommunity.media.vim-wakatime"},
