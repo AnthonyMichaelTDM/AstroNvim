@@ -11,13 +11,18 @@ return {
   -- import/override with your plugins folder
   -- language specific plugin packs
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
   -- color plugins (e.g. transparency)
   { import = "astrocommunity.color.twilight-nvim"},
   -- completion plugins
   { import = "astrocommunity.completion.copilot-lua"},
+  -- diagnostics plugins
+  { import = "astrocommunity.diagnostics.trouble-nvim"},
   -- general editor plugins
   { import = "astrocommunity.editing-support.todo-comments-nvim"},
   { import = "astrocommunity.editing-support.nvim-treesitter-context"},
+  { import = "astrocommunity.editing-support.vim-move"},
   { import = "astrocommunity.editing-support.vim-visual-multi"},
   -- keybinding plugins
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim"},
@@ -28,4 +33,6 @@ return {
   -- plugins that make me better at using nvim
   { import = "astrocommunity.workflow.precognition-nvim"},
   { import = "astrocommunity.workflow.hardtime-nvim"},
+  -- testing plugins
+  { import = "astrocommunity.test.neotest"},
 }
