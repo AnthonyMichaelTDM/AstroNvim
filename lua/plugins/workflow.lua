@@ -7,6 +7,8 @@ return {
             -- Make it so Hardtime doesn't actually stop you from doing 
             -- anything, just gives you a hint that you're doing it wrong
             restriction_mode = "hint",
+            -- Make it so Hardtime doesn't disable the mouse
+            disable_mouse = false,
         }
     },
 }
