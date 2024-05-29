@@ -24,6 +24,9 @@ return {
   { import = "astrocommunity.editing-support.nvim-treesitter-context"},
   { import = "astrocommunity.editing-support.vim-move"},
   { import = "astrocommunity.editing-support.vim-visual-multi"},
+  -- git plugins
+  { import = "astrocommunity.git.neogit"},
+  { import = "astrocommunity.git.octo-nvim"},
   -- keybinding plugins
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim"},
   -- wakatime
@@ -33,6 +36,9 @@ return {
   -- plugins that make me better at using nvim
   { import = "astrocommunity.workflow.precognition-nvim"},
   { import = "astrocommunity.workflow.hardtime-nvim"},
+  -- terminal integration
+  { import = "astrocommunity.terminal-integration.flatten-nvim"},
+  { import = "astrocommunity.terminal-integration.toggleterm-manager-nvim"},
   -- testing plugins
   { import = "astrocommunity.test.neotest"},
 }
