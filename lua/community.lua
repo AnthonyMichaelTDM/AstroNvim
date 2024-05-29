@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
   -- color plugins (e.g. transparency)
+  { import = "astrocommunity.color.transparent-nvim"}
   { import = "astrocommunity.color.twilight-nvim"},
   -- completion plugins
   { import = "astrocommunity.completion.copilot-lua"},
