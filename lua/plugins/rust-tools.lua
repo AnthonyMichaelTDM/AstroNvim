@@ -14,14 +14,6 @@ return {
           },
         }
       },
-      config = function(_, opts, bufnr)
-        require("rust-tools").setup(opts)
-        -- Hover actions
-        vim.keymap.set("n", "<C-space>", require("rust-tools").hover_actions.hover_actions, { buffer = bufnr })
-        -- Code action groups
-        vim.keymap.set("n", "<Leader>a", require("rust-tools").code_action_group.code_action_group,
-          { buffer = bufnr })
-      end,
     }, 
     {
       "AstroNvim/astrolsp",
@@ -33,6 +25,22 @@ return {
             require("rust-tools").setup({ server = opts })
           end,
         },
+        mappings = {
+          n = {
+            ["<C-space>"] = {
+              function()
+                require("rust-tools").hover_actions.hover_actions()
+              end,
+              desc = "Show hover actions",
+            },
+            ["<Leader>a"] = {
+              function()
+                require("rust-tools").code_action_group.code_action_group()
+              end,
+              desc = "Code actions",
+            },
+          }
+        }
       },
     },
     {
