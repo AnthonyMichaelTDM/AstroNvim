@@ -14,32 +14,32 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
   -- color plugins (e.g. transparency)
-  { import = "astrocommunity.color.transparent-nvim"},
-  { import = "astrocommunity.color.twilight-nvim"},
+  { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.color.twilight-nvim" },
   -- completion plugins
-  { import = "astrocommunity.completion.copilot-lua"},
+  { import = "astrocommunity.completion.copilot-lua" },
   -- diagnostics plugins
-  { import = "astrocommunity.diagnostics.trouble-nvim"},
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- general editor plugins
-  { import = "astrocommunity.editing-support.todo-comments-nvim"},
-  { import = "astrocommunity.editing-support.nvim-treesitter-context"},
-  { import = "astrocommunity.editing-support.vim-move"},
-  { import = "astrocommunity.editing-support.vim-visual-multi"},
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  { import = "astrocommunity.editing-support.nvim-treesitter-context" },
+  { import = "astrocommunity.editing-support.vim-move" },
+  { import = "astrocommunity.editing-support.vim-visual-multi" },
   -- git plugins
-  { import = "astrocommunity.git.neogit"},
-  { import = "astrocommunity.git.octo-nvim"},
+  { import = "astrocommunity.git.neogit" },
+  { import = "astrocommunity.git.octo-nvim" },
   -- keybinding plugins
-  { import = "astrocommunity.keybinding.nvcheatsheet-nvim"},
+  { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
   -- wakatime
-  { import = "astrocommunity.media.vim-wakatime"},
+  { import = "astrocommunity.media.vim-wakatime" },
   -- motion plugins
-  { import = "astrocommunity.motion.harpoon"},
+  { import = "astrocommunity.motion.harpoon" },
   -- plugins that make me better at using nvim
-  { import = "astrocommunity.workflow.precognition-nvim"},
-  { import = "astrocommunity.workflow.hardtime-nvim"},
+  { import = "astrocommunity.workflow.precognition-nvim" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
   -- terminal integration
-  { import = "astrocommunity.terminal-integration.flatten-nvim"},
-  { import = "astrocommunity.terminal-integration.toggleterm-manager-nvim"},
+  { import = "astrocommunity.terminal-integration.flatten-nvim" },
+  { import = "astrocommunity.terminal-integration.toggleterm-manager-nvim" },
   -- testing plugins
-  { import = "astrocommunity.test.neotest"},
+  { import = "astrocommunity.test.neotest" },
 }
