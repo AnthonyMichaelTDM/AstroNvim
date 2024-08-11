@@ -36,7 +36,6 @@ return {
   { import = "astrocommunity.motion.harpoon" },
   -- plugins that make me better at using nvim
   { import = "astrocommunity.workflow.precognition-nvim" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
   -- terminal integration
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.terminal-integration.toggleterm-manager-nvim" },
