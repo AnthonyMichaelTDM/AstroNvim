@@ -15,6 +15,13 @@ vim.filetype.add {
       end
     end,
   },
+  --enable linewrap for latex files
+  tex = function(path, bufnr)
+    return "tex", function()
+      vim.opt.wrap = true
+    end
+  end,
+
   -- filename = {
   --   ["Foofile"] = "fooscript",
   -- },
