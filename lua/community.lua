@@ -41,4 +41,6 @@ return {
   { import = "astrocommunity.terminal-integration.toggleterm-manager-nvim" },
   -- testing plugins
   { import = "astrocommunity.test.neotest" },
+  -- LaTeX plugins
+  { import = "astrocommunity.markdown-and-latex.vimtex" },
 }
