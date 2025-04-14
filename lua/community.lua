@@ -27,7 +27,7 @@ return {
   { import = "astrocommunity.editing-support.vim-visual-multi" },
   -- git plugins
   { import = "astrocommunity.git.neogit" },
-  { import = "astrocommunity.git.octo-nvim" },
+  -- { import = "astrocommunity.git.octo-nvim" },
   -- keybinding plugins
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
   -- wakatime
